@@ -1,0 +1,77 @@
+{
+  "aws": {
+    "regions": [
+      {
+        "name": "US East (N. Virginia) [us-east-1]",
+        "value": "us-east-1"
+      },
+      {
+        "name": "US East (Ohio) [us-east-2]",
+        "value": "us-east-2"
+      },
+      {
+        "name": "US West (N. California) [us-west-1]",
+        "value": "us-west-1"
+      },
+      {
+        "name": "US West (Oregon) [us-west-2]",
+        "value": "us-west-2"
+      },
+      {
+        "name": "Asia Pacific (Tokyo) [ap-northeast-1]",
+        "value": "ap-northeast-1"
+      },
+      {
+        "name": "Asia Pacific (Seoul) [ap-northeast-2]",
+        "value": "ap-northeast-2"
+      },
+      {
+        "name": "Asia Pacific (Mumbai) [ap-south-1]",
+        "value": "ap-south-1"
+      },
+      {
+        "name": "Asia Pacific (Singapore) [ap-southeast-1]",
+        "value": "ap-southeast-1"
+      },
+      {
+        "name": "Asia Pacific (Sydney) [ap-southeast-2]",
+        "value": "ap-southeast-2"
+      },
+      {
+        "name": "Canada (Central) [ca-central-1]",
+        "value": "ca-central-1"
+      },
+      {
+        "name": "China (Beijing) [cn-north-1]",
+        "value": "cn-north-1"
+      },
+      {
+        "name": "EU (Frankfurt) [eu-central-1]",
+        "value": "eu-central-1"
+      },
+      {
+        "name": "EU (Ireland) [eu-west-1]",
+        "value": "eu-west-1"
+      },
+      {
+        "name": "EU (London) [eu-west-2]",
+        "value": "eu-west-2"
+      },
+      {
+        "name": "EU (Paris) [eu-west-3]",
+        "value": "eu-west-3"
+      },
+      {
+        "name": "South America (Sao Paulo) [sa-east-1]",
+        "value": "sa-east-1"
+      },
+      {
+        "name": "AWS GovCloud (US) [us-gov-west-1]",
+        "value": "us-gov-west-1"
+      }
+    ]
+  },
+  "config": {
+    "location": ".lambdarc"
+  }
+}

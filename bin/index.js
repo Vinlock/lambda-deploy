@@ -1,2 +1,5 @@
 #! /usr/bin/env node
-console.log("console.log output");
+const CLI = require("../src/CLI");
+
+let cli = new CLI();
+cli.run();

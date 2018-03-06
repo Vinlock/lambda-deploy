@@ -2,7 +2,7 @@
   "name": "@vinlock/lambda-deploy",
   "version": "1.0.0",
   "description": "Lambda Deployment Tool",
-  "main": "index.js",
+  "main": "bin/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,24 @@
     "lambda",
     "aws"
   ],
+  "bin": {
+    "lambda": "bin/index.js"
+  },
   "author": "Dak Washbrook",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.205.0",
+    "colors": "^1.1.2",
+    "handlebars": "^4.0.11",
+    "inquirer": "^5.1.0",
+    "node-cache": "^4.1.1",
+    "semver": "^5.5.0",
+    "shelljs": "^0.8.1",
+    "yargs": "^11.0.0",
+    "zip-dir": "^1.0.2"
+  },
+  "engines": {
+    "node": ">=6.3.1",
+    "yarn": ">=1.2.1"
+  }
 }
